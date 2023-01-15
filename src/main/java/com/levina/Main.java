@@ -11,6 +11,9 @@ public class Main {
         cat1.weight = 9;
         cat1.gender = "М";
         cat1.food = "Молоко";
+        cat1.breed = "Британец";
+        cat1.favouriteHobby = "Спать";
+
 
         //Создаем 2 кота
         Cat cat2 = new Cat("Бусинка");
@@ -24,6 +27,8 @@ public class Main {
         int cat1Age = cat1.getAge();
         System.out.println(cat1Age);
         cat1.food();
+        cat1.breed();
+        cat1.favouriteHobby();
         System.out.println("Мой вес равен " + cat1.weight + " кг.");
         doctor.catHealth(cat1.weight);
 
