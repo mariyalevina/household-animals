@@ -7,6 +7,8 @@ public class Pets {
     int weight;
     String food;
     String gender;
+    String breed;
+    String favouriteHobby;
 
 
     public Pets(String name) {
@@ -23,5 +25,13 @@ public class Pets {
 
     void host() {
         System.out.println("У меня есть хозяин!");
+    }
+
+    void breed() {
+        System.out.println("Моя порода " + breed);
+    }
+
+    void favouriteHobby() {
+        System.out.println("Мое любимое занятие " + favouriteHobby);
     }
 }
